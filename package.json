@@ -1,0 +1,46 @@
+{
+    "name": "palenight-theme-dataazurestudio-version",
+    "displayName": "Palenight Theme - DataAzureStudio Version",
+    "description": "Palenight Theme based on vscode version",
+    "version": "0.0.1",
+    "publisher": "JoseRocha",
+    "icon": "icon.png",
+    "keywords": [
+        "material theme",
+        "palenight",
+        "material",
+        "purple",
+        "dark"
+    ],
+    "repository": {
+        "url": "https://github.com/joserocha/azdatastudio-material-palenight-theme",
+        "type": "git"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.32.0",
+        "sqlops": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Palenight Theme - DataAzureStudio Version",
+                "uiTheme": "vs-dark",
+                "path": "./themes/palenight.json"
+            },
+            {
+                "label": "Palenight Operator Theme - DataAzureStudio Version",
+                "uiTheme": "vs-dark",
+                "path": "./themes/palenight-operator.json"
+            },
+            {
+                "label": "Palenight Italic Theme - DataAzureStudio Version",
+                "uiTheme": "vs-dark",
+                "path": "./themes/palenight.json"
+            }
+        ]
+    }
+}
