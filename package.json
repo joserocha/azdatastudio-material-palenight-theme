@@ -1,8 +1,8 @@
 {
     "name": "palenight-theme-dataazurestudio-version",
     "displayName": "Palenight Theme - DataAzureStudio Version",
-    "description": "Palenight Theme based on vscode version",
-    "version": "0.0.1",
+    "description": "Palenight Theme Based on VSCode Version",
+    "version": "0.0.2",
     "publisher": "JoseRocha",
     "icon": "icon.png",
     "keywords": [
@@ -18,8 +18,7 @@
     },
     "license": "MIT",
     "engines": {
-        "vscode": "^1.32.0",
-        "sqlops": "*"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
